@@ -262,7 +262,7 @@ applicable agreement for further details.
 	(rotate180)
 )
 (symbol
-	(rect 616 128 648 144)
+	(rect 608 120 640 136)
 	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
 	(text "vcc1" (rect 3 5 27 17)(font "Arial" )(invisible))
 	(port
@@ -426,24 +426,16 @@ applicable agreement for further details.
 	(pt 624 328)
 )
 (connector
-	(pt 632 152)
-	(pt 624 152)
-)
-(connector
-	(pt 632 144)
-	(pt 632 152)
-)
-(connector
 	(pt 624 232)
 	(pt 656 232)
 )
 (connector
-	(pt 624 152)
-	(pt 624 232)
-)
-(connector
 	(pt 624 232)
 	(pt 624 328)
+)
+(connector
+	(pt 624 136)
+	(pt 624 232)
 )
 (junction (pt 584 304))
 (junction (pt 584 248))
