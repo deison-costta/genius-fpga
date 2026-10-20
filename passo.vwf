@@ -169,7 +169,9 @@ TRANSITION_LIST("zera_passo")
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 370.0;
+		LEVEL 0 FOR 260.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 70.0;
 	}
 }
 

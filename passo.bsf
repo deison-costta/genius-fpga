@@ -26,15 +26,15 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "inc__passo" (rect 0 0 66 14)(font "Arial" (font_size 8)))
-		(text "inc__passo" (rect 21 27 87 41)(font "Arial" (font_size 8)))
+		(text "zera_passo" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "zera_passo" (rect 21 27 89 41)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "zera_passo" (rect 0 0 68 14)(font "Arial" (font_size 8)))
-		(text "zera_passo" (rect 21 43 89 57)(font "Arial" (font_size 8)))
+		(text "inc__passo" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "inc__passo" (rect 21 43 87 57)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
