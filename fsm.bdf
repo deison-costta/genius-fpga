@@ -181,7 +181,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1504 776 1680 792)
+	(rect 1504 768 1680 784)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "led_en" (rect 90 0 121 12)(font "Arial" ))
 	(pt 0 8)
@@ -197,7 +197,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1504 824 1680 840)
+	(rect 1504 808 1680 824)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "led_erro" (rect 90 0 128 12)(font "Arial" ))
 	(pt 0 8)
@@ -213,7 +213,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1504 864 1680 880)
+	(rect 1504 848 1680 864)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "led_vit" (rect 90 0 123 12)(font "Arial" ))
 	(pt 0 8)
@@ -229,7 +229,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1504 904 1680 920)
+	(rect 1504 888 1680 904)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "idle" (rect 90 0 106 12)(font "Arial" ))
 	(pt 0 8)
@@ -245,7 +245,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1504 944 1680 960)
+	(rect 1504 928 1680 944)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ld" (rect 90 0 98 12)(font "Arial" ))
 	(pt 0 8)
@@ -328,6 +328,22 @@ applicable agreement for further details.
 	(rect 2168 296 2344 312)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ena" (rect 90 0 107 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1504 968 1680 984)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "inc_round" (rect 90 0 137 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -3826,31 +3842,6 @@ applicable agreement for further details.
 	(pt 1504 736)
 )
 (connector
-	(text "s_on" (rect 1466 768 1489 780)(font "Arial" ))
-	(pt 1456 784)
-	(pt 1504 784)
-)
-(connector
-	(text "s_erro" (rect 1466 816 1496 828)(font "Arial" ))
-	(pt 1456 832)
-	(pt 1504 832)
-)
-(connector
-	(text "s_vit" (rect 1466 856 1490 868)(font "Arial" ))
-	(pt 1456 872)
-	(pt 1504 872)
-)
-(connector
-	(text "s_idle" (rect 1466 896 1494 908)(font "Arial" ))
-	(pt 1456 912)
-	(pt 1504 912)
-)
-(connector
-	(text "s_gera" (rect 1466 936 1499 948)(font "Arial" ))
-	(pt 1456 952)
-	(pt 1504 952)
-)
-(connector
 	(pt 1376 -64)
 	(pt 1416 -64)
 )
@@ -4314,6 +4305,36 @@ applicable agreement for further details.
 	(text "s_alinha1" (rect 1314 24 1360 36)(font "Arial" ))
 	(pt 1304 40)
 	(pt 1376 40)
+)
+(connector
+	(text "s_on" (rect 1466 760 1489 772)(font "Arial" ))
+	(pt 1456 776)
+	(pt 1504 776)
+)
+(connector
+	(text "s_erro" (rect 1466 800 1496 812)(font "Arial" ))
+	(pt 1456 816)
+	(pt 1504 816)
+)
+(connector
+	(text "s_vit" (rect 1466 840 1490 852)(font "Arial" ))
+	(pt 1456 856)
+	(pt 1504 856)
+)
+(connector
+	(text "s_idle" (rect 1466 880 1494 892)(font "Arial" ))
+	(pt 1456 896)
+	(pt 1504 896)
+)
+(connector
+	(text "s_gera" (rect 1466 920 1499 932)(font "Arial" ))
+	(pt 1456 936)
+	(pt 1504 936)
+)
+(connector
+	(text "d_gera" (rect 1466 960 1499 972)(font "Arial" ))
+	(pt 1504 976)
+	(pt 1456 976)
 )
 (junction (pt 88 8))
 (junction (pt 88 144))
