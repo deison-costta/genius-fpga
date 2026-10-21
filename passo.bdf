@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 392 384 560 400)
+	(rect 328 384 496 400)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clk" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 368 296 536 312)
+	(rect 328 296 496 312)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "inc__passo" (rect 5 0 60 12)(font "Arial" ))
 	(pt 168 8)
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 304 184 472 200)
+	(rect 328 184 496 200)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "zera_passo" (rect 5 0 60 12)(font "Arial" ))
 	(pt 168 8)
@@ -262,7 +262,7 @@ applicable agreement for further details.
 	(rotate180)
 )
 (symbol
-	(rect 608 120 640 136)
+	(rect 608 144 640 160)
 	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
 	(text "vcc1" (rect 3 5 27 17)(font "Arial" )(invisible))
 	(port
@@ -300,14 +300,6 @@ applicable agreement for further details.
 		(line (pt 13 25)(pt 31 16))
 		(circle (rect 31 12 39 20))
 	)
-)
-(connector
-	(pt 560 392)
-	(pt 584 392)
-)
-(connector
-	(pt 584 392)
-	(pt 584 352)
 )
 (connector
 	(pt 656 312)
@@ -366,10 +358,6 @@ applicable agreement for further details.
 	(pt 848 328)
 )
 (connector
-	(pt 472 192)
-	(pt 512 192)
-)
-(connector
 	(pt 560 192)
 	(pt 640 192)
 )
@@ -384,18 +372,6 @@ applicable agreement for further details.
 (connector
 	(pt 584 296)
 	(pt 656 296)
-)
-(connector
-	(pt 584 296)
-	(pt 584 304)
-)
-(connector
-	(pt 584 304)
-	(pt 584 312)
-)
-(connector
-	(pt 536 304)
-	(pt 584 304)
 )
 (connector
 	(pt 656 280)
@@ -430,12 +406,36 @@ applicable agreement for further details.
 	(pt 656 232)
 )
 (connector
+	(pt 624 160)
+	(pt 624 232)
+)
+(connector
 	(pt 624 232)
 	(pt 624 328)
 )
 (connector
-	(pt 624 136)
-	(pt 624 232)
+	(pt 512 192)
+	(pt 496 192)
+)
+(connector
+	(pt 584 304)
+	(pt 496 304)
+)
+(connector
+	(pt 584 352)
+	(pt 584 392)
+)
+(connector
+	(pt 584 392)
+	(pt 496 392)
+)
+(connector
+	(pt 584 296)
+	(pt 584 304)
+)
+(connector
+	(pt 584 304)
+	(pt 584 312)
 )
 (junction (pt 584 304))
 (junction (pt 584 248))
