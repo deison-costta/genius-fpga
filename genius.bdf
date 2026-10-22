@@ -548,7 +548,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 984 376 1080 504)
+	(rect 992 376 1088 504)
 	(text "contador" (rect 5 0 55 14)(font "Arial" (font_size 8)))
 	(text "inst5" (rect 8 112 31 124)(font "Arial" ))
 	(port
@@ -1424,46 +1424,6 @@ applicable agreement for further details.
 	(pt 920 584)
 )
 (connector
-	(text "clk" (rect 922 424 936 436)(font "Arial" ))
-	(pt 912 440)
-	(pt 984 440)
-)
-(connector
-	(text "clr_jogo" (rect 922 408 959 420)(font "Arial" ))
-	(pt 912 424)
-	(pt 984 424)
-)
-(connector
-	(text "inc_round" (rect 922 392 969 404)(font "Arial" ))
-	(pt 984 408)
-	(pt 912 408)
-)
-(connector
-	(text "r0" (rect 1090 392 1099 404)(font "Arial" ))
-	(pt 1080 408)
-	(pt 1128 408)
-)
-(connector
-	(text "r1" (rect 1090 408 1099 420)(font "Arial" ))
-	(pt 1080 424)
-	(pt 1128 424)
-)
-(connector
-	(text "r2" (rect 1090 424 1099 436)(font "Arial" ))
-	(pt 1080 440)
-	(pt 1128 440)
-)
-(connector
-	(text "r3" (rect 1090 440 1099 452)(font "Arial" ))
-	(pt 1080 456)
-	(pt 1128 456)
-)
-(connector
-	(text "fim_jogo" (rect 1090 456 1132 468)(font "Arial" ))
-	(pt 1080 472)
-	(pt 1120 472)
-)
-(connector
 	(text "p0" (rect 1130 568 1141 580)(font "Arial" ))
 	(pt 1168 584)
 	(pt 1120 584)
@@ -1780,5 +1740,45 @@ applicable agreement for further details.
 	(text "cod0" (rect 1314 672 1337 684)(font "Arial" ))
 	(pt 1360 688)
 	(pt 1304 688)
+)
+(connector
+	(text "r0" (rect 1098 392 1107 404)(font "Arial" ))
+	(pt 1088 408)
+	(pt 1136 408)
+)
+(connector
+	(text "r1" (rect 1098 408 1107 420)(font "Arial" ))
+	(pt 1088 424)
+	(pt 1136 424)
+)
+(connector
+	(text "r2" (rect 1098 424 1107 436)(font "Arial" ))
+	(pt 1088 440)
+	(pt 1136 440)
+)
+(connector
+	(text "r3" (rect 1098 440 1107 452)(font "Arial" ))
+	(pt 1088 456)
+	(pt 1136 456)
+)
+(connector
+	(text "fim_jogo" (rect 1098 456 1140 468)(font "Arial" ))
+	(pt 1088 472)
+	(pt 1128 472)
+)
+(connector
+	(text "inc_round" (rect 930 392 977 404)(font "Arial" ))
+	(pt 920 408)
+	(pt 992 408)
+)
+(connector
+	(text "clr_jogo" (rect 930 408 967 420)(font "Arial" ))
+	(pt 920 424)
+	(pt 992 424)
+)
+(connector
+	(text "clk" (rect 930 424 944 436)(font "Arial" ))
+	(pt 920 440)
+	(pt 992 440)
 )
 (junction (pt 280 168))
