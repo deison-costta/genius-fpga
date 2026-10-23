@@ -40,9 +40,16 @@ applicable agreement for further details.
 	(port
 		(pt 136 32)
 		(output)
-		(text "fim_tempo" (rect 0 0 57 14)(font "Arial" (font_size 8)))
-		(text "fim_tempo" (rect 58 27 115 41)(font "Arial" (font_size 8)))
+		(text "tick" (rect 0 0 18 14)(font "Arial" (font_size 8)))
+		(text "tick" (rect 97 27 115 41)(font "Arial" (font_size 8)))
 		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "fim_tempo" (rect 0 0 57 14)(font "Arial" (font_size 8)))
+		(text "fim_tempo" (rect 58 43 115 57)(font "Arial" (font_size 8)))
+		(line (pt 136 48)(pt 120 48))
 	)
 	(drawing
 		(rectangle (rect 16 16 120 80))
