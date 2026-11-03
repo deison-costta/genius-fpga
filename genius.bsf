@@ -80,6 +80,13 @@ applicable agreement for further details.
 		(line (pt 0 144)(pt 16 144))
 	)
 	(port
+		(pt 0 160)
+		(input)
+		(text "gera_en" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "gera_en" (rect 21 155 68 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
 		(pt 160 32)
 		(output)
 		(text "led_0" (rect 0 0 30 14)(font "Arial" (font_size 8)))
